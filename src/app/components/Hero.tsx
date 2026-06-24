@@ -71,7 +71,7 @@ export function Hero() {
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-5 justify-center w-full max-w-2xl mx-auto">
           <a
-            href="tel:+918103289895"
+            href="tel:+918965800401"
             className="flex-1 flex items-center justify-center gap-3 bg-gradient-to-r from-[#C8590A] to-[#E06010] hover:from-[#E06010] hover:to-[#F27020] text-white px-10 py-5 rounded-full text-lg sm:text-xl font-bold transition-all duration-300 shadow-2xl shadow-[#C8590A]/50 hover:shadow-[#C8590A]/70 hover:-translate-y-1"
             style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
           >
@@ -79,7 +79,7 @@ export function Hero() {
             अभी कॉल करें — निःशुल्क परामर्श
           </a>
           <a
-            href="https://wa.me/918103289895?text=नमस्ते%20पंडित%20जी%2C%20मुझे%20पूजा%20की%20जानकारी%20चाहिए"
+            href="https://wa.me/918965800401?text=नमस्ते%20पंडित%20जी%2C%20मुझे%20पूजा%20की%20जानकारी%20चाहिए"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-none flex items-center justify-center gap-3 bg-[#25D366]/10 hover:bg-[#25D366]/20 border border-[#25D366]/50 text-[#25D366] px-8 py-5 rounded-full text-base font-semibold transition-all duration-200 hover:-translate-y-0.5"

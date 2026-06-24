@@ -57,7 +57,7 @@ export function CallToAction() {
         {/* Phone number prominent */}
         <div className="mb-8">
           <a
-            href="tel:+918103289895"
+            href="tel:+918965800401"
             className="inline-flex items-center gap-3 text-[#F5C842] hover:text-white transition-colors"
             style={{ fontFamily: "'Tiro Devanagari Hindi', serif", fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
           >
@@ -75,7 +75,7 @@ export function CallToAction() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="tel:+918103289895"
+            href="tel:+918965800401"
             className="flex items-center justify-center gap-3 bg-[#C8590A] hover:bg-[#E06010] text-white px-10 py-4 rounded-full font-semibold text-lg transition-all duration-200 shadow-xl shadow-[#C8590A]/40 hover:-translate-y-0.5"
             style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
           >
@@ -83,7 +83,7 @@ export function CallToAction() {
             अभी फोन करें — निःशुल्क परामर्श
           </a>
           <a
-            href="https://wa.me/918103289895?text=नमस्ते%20पंडित%20जी%2C%20मुझे%20पूजा%20की%20जानकारी%20चाहिए"
+            href="https://wa.me/918965800401?text=नमस्ते%20पंडित%20जी%2C%20मुझे%20पूजा%20की%20जानकारी%20चाहिए"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 bg-[#25D366]/15 hover:bg-[#25D366]/25 border border-[#25D366]/50 text-[#25D366] px-10 py-4 rounded-full font-semibold text-lg transition-all duration-200 hover:-translate-y-0.5"

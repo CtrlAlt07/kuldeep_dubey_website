@@ -79,7 +79,7 @@ export function Footer() {
             </h4>
             <div className="space-y-4">
               <a
-                href="tel:+918103289895"
+                href="tel:+918965800401"
                 className="flex items-center gap-3 text-[#A5927A] hover:text-[#D4A96A] transition-colors group"
               >
                 <Phone size={16} className="text-[#C8590A] shrink-0" />
@@ -88,7 +88,7 @@ export function Footer() {
                 </span>
               </a>
               <a
-                href="https://wa.me/918103289895"
+                href="https://wa.me/918965800401"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-[#A5927A] hover:text-[#25D366] transition-colors"
@@ -123,7 +123,7 @@ export function Footer() {
             </h4>
             <div className="space-y-3">
               <a
-                href="tel:+918103289895"
+                href="tel:+918965800401"
                 className="flex items-center justify-center gap-2 bg-[#C8590A] hover:bg-[#E06010] text-white px-4 py-3 rounded-xl text-base font-semibold transition-colors"
                 style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
               >
@@ -131,7 +131,7 @@ export function Footer() {
                 अभी कॉल करें
               </a>
               <a
-                href="https://wa.me/918103289895?text=नमस्ते%20पंडित%20जी"
+                href="https://wa.me/918965800401?text=नमस्ते%20पंडित%20जी"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] px-4 py-3 rounded-xl text-base font-semibold transition-colors hover:bg-[#25D366]/20"

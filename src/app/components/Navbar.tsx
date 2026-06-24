@@ -61,7 +61,7 @@ export function Navbar() {
         {/* CTA */}
         <div className="flex items-center gap-3">
           <a
-            href="tel:+918103289895"
+            href="tel:+918965800401"
             className="hidden sm:flex items-center gap-2 bg-[#C8590A] hover:bg-[#E06010] text-white px-5 py-2.5 rounded-full text-base font-semibold transition-all duration-200 shadow-md shadow-[#C8590A]/30"
             style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
           >
@@ -93,7 +93,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="tel:+918103289895"
+            href="tel:+918965800401"
             className="flex items-center justify-center gap-2 bg-[#C8590A] text-white px-6 py-3.5 rounded-full text-base font-semibold mt-2"
             style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
           >

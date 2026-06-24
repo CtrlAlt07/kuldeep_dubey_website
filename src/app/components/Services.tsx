@@ -118,7 +118,7 @@ export function Services() {
               </div>
 
               <a
-                href="tel:+918103289895"
+                href="tel:+918965800401"
                 className="w-full flex items-center justify-center gap-2 bg-[#1C1814] group-hover:bg-[#C8590A] text-white py-3.5 rounded-xl text-base font-medium transition-all duration-300"
                 style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
               >

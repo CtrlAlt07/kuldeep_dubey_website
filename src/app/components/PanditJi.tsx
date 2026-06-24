@@ -75,7 +75,7 @@ export function PanditJi() {
         </div>
 
         <a
-          href="tel:+918103289895"
+          href="tel:+918965800401"
           className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#C8590A] to-[#E06010] hover:from-[#E06010] hover:to-[#F27020] text-white px-12 py-5 rounded-full text-xl font-bold transition-all duration-300 shadow-2xl shadow-[#C8590A]/40 hover:shadow-[#C8590A]/60 hover:-translate-y-1 w-full sm:w-auto"
           style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
         >
