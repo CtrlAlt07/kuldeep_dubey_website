@@ -84,7 +84,7 @@ export function Footer() {
               >
                 <Phone size={16} className="text-[#C8590A] shrink-0" />
                 <span className="text-base font-medium" style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}>
-                  +91 81032 89895
+                  +91 8965800401
                 </span>
               </a>
               <a
