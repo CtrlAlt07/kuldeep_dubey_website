@@ -63,7 +63,7 @@ export function Testimonials() {
   const displayed = [0, 1, 2].map((i) => reviews[(current + i) % total]);
 
   return (
-    <section id="testimonials" className="py-20 sm:py-28 bg-[#FDF6E3] relative overflow-hidden">
+    <section id="reviews" className="py-20 sm:py-28 bg-[#FDF6E3] relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-12 left-8 text-[#B8860B]/10 text-[200px] leading-none select-none pointer-events-none" style={{ fontFamily: "'Tiro Devanagari Hindi', serif" }}>
         ॐ

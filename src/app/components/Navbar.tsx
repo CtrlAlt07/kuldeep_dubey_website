@@ -14,10 +14,10 @@ export function Navbar() {
   const navLinks = [
     { label: "पंडित जी", href: "#pandit-ji" },
     { label: "सेवाएं", href: "#services" },
-    { label: "हमारे बारे में", href: "#why-us" },
+    { label: "हमारे बारे में", href: "#about" },
     { label: "प्रक्रिया", href: "#process" },
     { label: "गैलरी", href: "#gallery" },
-    { label: "समीक्षाएं", href: "#testimonials" },
+    { label: "समीक्षाएं", href: "#reviews" },
     { label: "FAQ", href: "#faq" },
   ];
 
