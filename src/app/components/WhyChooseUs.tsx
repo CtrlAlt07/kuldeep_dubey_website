@@ -26,7 +26,7 @@ const reasons = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-us" className="py-20 sm:py-28 bg-[#1C1814] relative overflow-hidden">
+    <section id="about" className="py-20 sm:py-28 bg-[#1C1814] relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#F5C842] to-transparent" />
 
       {/* Background texture */}
