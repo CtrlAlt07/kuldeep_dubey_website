@@ -58,11 +58,11 @@ export function CallToAction() {
         <div className="mb-8">
           <a
             href="tel:+918965800401"
-            className="inline-flex items-center gap-3 text-[#F5C842] hover:text-white transition-colors"
-            style={{ fontFamily: "'Tiro Devanagari Hindi', serif", fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
+            className="inline-flex items-center gap-3 text-[#F5C842] hover:text-white transition-colors font-bold tracking-wide"
+            style={{ fontFamily: "'Noto Sans Devanagari', sans-serif", fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
           >
-            <Phone size={28} className="text-[#C8590A]" />
-            +91 81032 89895
+            <Phone size={28} className="text-[#C8590A] animate-bounce" />
+            +91 89658 00401
           </a>
           <p
             className="text-[#A5927A] text-base mt-2"
