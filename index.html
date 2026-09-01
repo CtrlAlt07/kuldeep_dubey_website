@@ -29,6 +29,17 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-18300278271');
+    gtag('event', 'conversion', { 'send_to': 'AW-18300278271/vcrjCKeM78ocEP-roJZE' });
+
+    // Track all phone call and WhatsApp clicks
+    document.addEventListener('click', function (e) {
+      var target = e.target.closest('a');
+      if (target && target.href) {
+        if (target.href.indexOf('tel:') !== -1 || target.href.indexOf('wa.me') !== -1) {
+          gtag('event', 'conversion', { 'send_to': 'AW-18300278271/vcrjCKeM78ocEP-roJZE' });
+        }
+      }
+    });
   </script>
   <!-- End Google tag (gtag.js) -->
 
