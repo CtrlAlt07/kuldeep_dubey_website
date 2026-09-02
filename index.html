@@ -29,9 +29,8 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-18300278271');
-    gtag('event', 'conversion', { 'send_to': 'AW-18300278271/vcrjCKeM78ocEP-roJZE' });
 
-    // Track all phone call and WhatsApp clicks
+    // Track real phone call and WhatsApp clicks
     document.addEventListener('click', function (e) {
       var target = e.target.closest('a');
       if (target && target.href) {
