@@ -30,6 +30,14 @@
 
     gtag('config', 'AW-18300278271');
 
+    // =========================================================================
+    // Google Ads Conversion Labels Configuration
+    // If you have separate conversion keys in Google Ads for Phone Call and WhatsApp,
+    // update the labels below (e.g. 'AW-18300278271/YOUR_PHONE_LABEL')
+    // =========================================================================
+    var GOOGLE_ADS_PHONE_CONVERSION_LABEL = 'AW-18300278271/vcrjCKeM78ocEP-roJZE';
+    var GOOGLE_ADS_WHATSAPP_CONVERSION_LABEL = 'AW-18300278271/vcrjCKeM78ocEP-roJZE';
+
     // Bulletproof click tracking for Phone Calls & WhatsApp (Google Ads, GA4, GTM)
     function trackLeadClicks(e) {
       var target = e.target ? e.target.closest('a') : null;
@@ -39,8 +47,10 @@
 
       // Track Phone Call Clicks
       if (href.indexOf('tel:') !== -1) {
-        // Direct Google Ads conversion
-        gtag('event', 'conversion', { 'send_to': 'AW-18300278271/vcrjCKeM78ocEP-roJZE' });
+        // Direct Google Ads conversion for Phone Calls
+        if (GOOGLE_ADS_PHONE_CONVERSION_LABEL) {
+          gtag('event', 'conversion', { 'send_to': GOOGLE_ADS_PHONE_CONVERSION_LABEL });
+        }
         // GA4 custom event
         gtag('event', 'phone_call_click', { 'event_category': 'Lead', 'event_label': 'Phone Call' });
         // GTM DataLayer push
@@ -49,8 +59,10 @@
 
       // Track WhatsApp Clicks
       if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp.com') !== -1) {
-        // Direct Google Ads conversion
-        gtag('event', 'conversion', { 'send_to': 'AW-18300278271/vcrjCKeM78ocEP-roJZE' });
+        // Direct Google Ads conversion for WhatsApp
+        if (GOOGLE_ADS_WHATSAPP_CONVERSION_LABEL) {
+          gtag('event', 'conversion', { 'send_to': GOOGLE_ADS_WHATSAPP_CONVERSION_LABEL });
+        }
         // GA4 custom event
         gtag('event', 'whatsapp_click', { 'event_category': 'Lead', 'event_label': 'WhatsApp' });
         // GTM DataLayer push
